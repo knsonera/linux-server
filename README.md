@@ -2,6 +2,7 @@
 
 ## How to access the server via SSH:
 IP: 34.217.35.161
+
 Port: 2200
 
 ## How to access the web app:
