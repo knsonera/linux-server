@@ -4,6 +4,10 @@
 IP: 34.217.35.161
 
 Port: 2200
+```
+ssh -i /path/to/the/key/testkeypair.pem grader@34.217.35.161 -p 2200
+```
+(before connecting to the server please add valid key to testkeypair.pem file and change file permissions to chmod 600)
 
 ## How to access the web app:
 Please use this link: http://uzhvieva.com/
