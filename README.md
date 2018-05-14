@@ -7,7 +7,7 @@ Port: 2200
 ## How to access the web app:
 Please use this link: http://uzhvieva.com/
 
-## Configuration changes
+## Configuration changes:
 ### .ssh/authorized_keys
 - added rsa key to .ssh/authorized_keys file
 - changed permissions of the file (sudo chmod 600)
@@ -58,7 +58,7 @@ sys.path.insert(0,"/var/www/helper/")
 from helper import views
 application = views.app
 ```
-## Additional software and libraries installed
+## Additional software and libraries:
 - python
 - python-sys
 - python-random
