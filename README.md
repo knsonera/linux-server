@@ -20,6 +20,7 @@ Please use this link: http://uzhvieva.com/
 - default SSH port changed to 2200 (Port 2200)
 - password authentication disabled (PasswordAuthentication no)
 - root login disabled (PermitRootLogin no)
+- ubuntu remote login disabled (AllowUsers grader DenyUsers ubuntu)
 ### /etc/sudoers.d/grader
 - added grader file to sudoers.d
 - gave root access to grader user (grader ALL=(ALL) NOPASSWD:ALL)
